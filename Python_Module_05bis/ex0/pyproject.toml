@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sealed-laboratory"
+version = "0.1"
+description = "Exercise 0: The Sealed Laboratory"
+authors = "Gerard <gjuan-pa@student.42barcelona.com>"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+numpy = "^1.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
